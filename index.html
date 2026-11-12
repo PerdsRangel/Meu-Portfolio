@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="branco">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Portfólio</title>
+  <meta name="description" content="Portfólio pessoal em formato de menu de jogo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <nav id="tabs" role="tablist" aria-label="Menu principal"></nav>
+    <div class="tools">
+      <button id="theme" class="tab" type="button" title="Trocar tema (T)">TEMA: BRANCO</button>
+      <button id="mute" class="tab" type="button" title="Som (M)">SOM: ON</button>
+    </div>
+  </header>
+
+  <main id="screen" tabindex="-1"></main>
+
+  <div id="toast" class="box toast" role="status" aria-live="polite" hidden></div>
+
+  <footer class="hint">
+    <span>← → telas</span><span>↑ ↓ escolher</span><span>ENTER confirmar</span><span>ESC início</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
